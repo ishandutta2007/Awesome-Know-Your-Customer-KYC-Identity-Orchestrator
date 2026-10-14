@@ -1,257 +1,189 @@
-# Awesome-Know-Your-Customer-KYC-Identity-Orchestrator
+# Awesome Know Your Customer (KYC) & Identity Orchestrator 🛡️
 
-## Top Know Your Customer (KYC) Identity Orchestrator Ecosystem
+<div align="center">
 
+<img src="./assets/banner.svg" alt="Awesome Know Your Customer KYC Identity Orchestrator" width="100%" />
 
+<p align="center">
+  <strong>Curated directory of enterprise SaaS platforms, open-source KYC tools, facial liveness biometrics, and AML identity orchestrator engines.</strong>
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+<p align="center">
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Know-Your-Customer-KYC-Identity-Orchestrator/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Know-Your-Customer-KYC-Identity-Orchestrator?style=flat-square&logo=github" alt="GitHub Stars" /></a> <a href="https://github.com/ishandutta2007/Awesome-Know-Your-Customer-KYC-Identity-Orchestrator/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Know-Your-Customer-KYC-Identity-Orchestrator?style=flat-square&logo=github" alt="GitHub Forks" /></a> <a href="https://github.com/ishandutta2007/Awesome-Know-Your-Customer-KYC-Identity-Orchestrator/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Know-Your-Customer-KYC-Identity-Orchestrator?style=flat-square" alt="Issues" /></a> <a href="https://github.com/ishandutta2007/Awesome-Know-Your-Customer-KYC-Identity-Orchestrator/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.style=flat-square" alt="License" /></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-*Focused on Document Verification, Facial Liveness & Multi-Modal Identity Pipelines*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Know Your Customer (KYC) Identity Orchestration**. These tools enable organizations to verify user identities through multi-modal pipelines—document capture, OCR, facial biometrics, liveness detection, and AML screening—while maintaining compliance and audit trails.
-
-
-
-**Examples** include Persona, Trulioo, Veriff, Sumsub, Onfido, Jumio, IDnow, Alloy, Middesk, and Passbase (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, document processing, and open facial analysis—ideal for fintech developers, compliance engineers, and organizations seeking transparent, vendor-independent identity verification.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Persona](https://withpersona.com/)**  
-
-  Identity platform with **document verification in 200+ countries**, business verification (KYB) in 100+ countries, and global PEP/sanctions screening across 100+ watchlists . Features **no-code workflow builder**, passive signals, liveness detection, real-time link analysis, and case management. **Trusted by Twilio, Square Capital, and Lime** .
-
-
-
-- **[Trulioo](https://www.trulioo.com/)**  
-
-  Global identity verification platform with document verification, database checks, and business verification across 195+ countries.
-
-
-
-- **[Veriff](https://www.veriff.com/)**  
-
-  AI-powered identity verification platform. Features document verification, facial biometrics, liveness detection, and AML screening.
-
-
-
-- **[Sumsub](https://sumsub.com/)**  
-
-  All-in-one identity verification and compliance platform. Features KYC, KYB, AML screening, and transaction monitoring.
-
-
-
-- **[Onfido](https://onfido.com/)**  
-
-  Identity verification platform with document capture, facial biometrics, and liveness detection. Widely used in fintech and financial services.
-
-
-
-- **[Jumio](https://www.jumio.com/)**  
-
-  AI-powered identity verification and AML screening platform. Features document verification, facial recognition, and liveness detection.
-
-
-
-- **[IDnow](https://www.idnow.io/)**  
-
-  European identity verification platform with video-based verification and automated document checks.
-
-
-
-- **[Alloy](https://www.alloy.com/)**  
-
-  Identity risk platform with KYC/KYB orchestration, fraud detection, and AML screening.
-
-
-
-- **[Middesk](https://www.middesk.com/)**  
-
-  Business identity verification (KYB) platform. Features business registry checks, beneficial ownership, and compliance.
-
-
-
-- **[Passbase](https://passbase.com/)**  
-
-  Identity verification platform with document checks, facial biometrics, and liveness detection.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Ballerine](https://github.com/ballerine-io/ballerine)**  
-
-  **The most comprehensive open-source infrastructure for identity and risk management** (Y Combinator-backed) . Features **KYC/KYB UI flows**, **case management dashboard**, **integrations with identity verification providers**, and a **rule engine** to automate decisioning . **The leading open-source alternative to Persona or Onfido.** Self-hosted with full customization. MIT licensed.
-
-
-
-- **[Clarium](https://github.com/QuantSingularity/Clarium)**  
-
-  **RegTech compliance module with FastAPI KYC/AML engine** (open-source) . Features **KYC pipeline** (submit, upload document, status, review queue), **AML transaction monitoring** with four rules (amount threshold, velocity, geographic risk, PEP matching), **hash-chained audit trail** (SHA-256, tamper-detectable), **jurisdiction rules** (US, GB, EU, SG, AE), and **HMAC-signed webhooks** . **The most complete open-source KYC/AML orchestration backend available.**
-
-
-
-- **[UniFace](https://pypi.org/project/uniface/)**  
-
-  **All-in-one face analysis library** (MIT, PyPI) . **The most comprehensive open-source facial processing pipeline for KYC.** Features **face detection** (RetinaFace, SCRFD, YOLOv5-Face, YOLOv8-Face), **face recognition** (AdaFace, ArcFace, EdgeFace, MobileFace), **anti-spoofing** (MiniFASNet), **gaze estimation**, **head pose estimation**, **age/gender/race analysis** (FairFace), and **vector store** (FAISS) for fast multi-identity search . **Note**: YOLOv5-Face/YOLOv8-Face weights are GPL-3.0; FairFace is CC BY 4.0—verify licensing for commercial use .
-
-
-
-- **[liveness-detector](https://pypi.org/project/liveness-detector/)**  
-
-  **Gesture-based facial liveness detector** (AGPL-3.0, PyPI) by 2060.io . Uses **randomized facial gesture challenges** (blink, smile, head turn) to defeat replay and spoof attacks. Features **C++/MediaPipe core**, customizable gestures and locales via JSON, and **all processing local by default** . **The most focused open-source liveness detection library.**
-
-
-
-- **[django-camera-kit](https://pypi.org/project/django-camera-kit/)**  
-
-  **Document scanning and KYC face verification widgets for Django** (open-source) . Features **live document edge detection** with manual corner adjustment, **multi-page PDF assembly**, and **KYC module with selfie/ID capture, embedding comparison, and head-movement liveness challenge** . Requires PostgreSQL with pgvector. **The most complete open-source Django-native KYC toolkit.**
-
-
-
-- **[personal_validation_system](https://pub.dev/packages/personal_validation_system)**  
-
-  **Flutter plugin for identity verification** (open-source) . Provides document validation, face matching, and personal information verification. **The most accessible open-source KYC plugin for Flutter mobile apps.**
-
-
-
-- **[FaceVault](https://docs.hollaex.com/plugins/use-plugins/facevault-automatic-kyc)**  
-
-  **Fully open-source KYC plugin for HollaEx exchanges** . Features **hosted verification flow** (government ID capture, OCR, selfie liveness, face matching, anti-spoofing), **trust score (0-100)** with accept/review/reject decision, and **webview-only integration** . **The most complete open-source KYC plugin for crypto exchanges.**
-
-
-
-- **[open-kyc](https://github.com/College-Canine/open-kyc)**  
-
-  **Open-source KYC solution for free compliance** (TypeScript, open-source) . Community project enabling free KYC compliance. Early-stage but demonstrates the open-source approach.
-
-
-
-- **[org.id](https://github.com/windingtree/org.id)**  
-
-  **Self-Sovereign Identity (SSI) solution for organizations** (open-source) . W3C-DID compliant decentralized business registry. **The most standards-compliant open-source KYB solution** for organizations seeking decentralized identity.
-
-
-
-- **[pykolofinance](https://pypi.org/project/pykolofinance/)**  
-
-  **Python utility package for banking microservices with KYC verification** (open-source) . Features KYC integration with **Dojah** (Nigerian identity provider) for **BVN, NIN, and BVN_SELFIE** verification types, JWT authentication, and audit logging . **The most focused open-source KYC integration for African banking.**
-
-
-
-- **[crypto-aml](https://pypi.org/project/crypto-aml/)**  
-
-  **Crypto AML/KYT Python SDK** (open-source) . Features **address risk screening** with AnChain.AI integration, **graph visualization**, and **exchange whitelist policy** patterns. Risk score bands: 0-29 LOW, 30-50 GUARDED, 51-79 ELEVATED, 80-100 SEVERE . **The most exchange-integration-ready open-source crypto AML SDK.**
-
-
-
-- **[tf-kyc-verifier](https://pkg.go.dev/github.com/threefoldtech/tf-kyc-verifier)**  
-
-  **KYC verification service for ThreeFold** (Go, open-source) . Features **iDenfy webhook integration**, verification tokens, sponsorship APIs, and **Swagger documentation** . **The most focused open-source KYC verification service for decentralized infrastructure.**
-
-
-
-- **[idverification (authsome)](https://pkg.go.dev/github.com/xraph/authsome/plugins/enterprise/idverification)**  
-
-  **Go plugin for identity verification with multi-provider support** (open-source) . Features **verification sessions**, **middleware for access control** (RequireDocumentVerified, RequireAMLClear, RequireAge), **webhook handling**, and **verification status checks** . **The most complete open-source KYC middleware for Go applications.**
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[MiniAiLive ID Document Recognition](https://github.com/MiniAiLive/ID-DocumentRecognition-Linux)** — Intelligent ID OCR for identity verification (open-source). Linux, Windows, and server SDKs .
-
-- **[kby-ai IDCardRecognition](https://github.com/kby-ai/IDCardRecognition-Docker)** — ID document recognition for ID card, passport, and driver license (open-source). Windows, Docker, iOS, Android, and Flutter SDKs .
-
-- **[FaceOnLive Face-Liveness-Detection-SDK](https://github.com/FaceOnLive/Face-Liveness-Detection-SDK-Linux)** — Face anti-spoofing server SDK (open-source) .
-
-- **[recognito-vision iOS SDK](https://github.com/recognito-vision/iOS-FaceRecognition-FaceLivenessDetection)** — NIST FRVT Top 1 Face Recognition and Liveness Detection iOS SDK (open-source) .
-
-- **[passive_liveness](https://pub.dev/packages/passive_liveness)** — Flutter passive liveness detection with MiniFAS model (open-source) .
-
-- Community **n8n** workflows for KYC verification routing and alert automation.
-
-
-
-**Frameworks for building custom systems**: Combine **Ballerine** for KYC/KYB orchestration with **Clarium** for KYC/AML backend, **UniFace** for facial recognition and anti-spoofing, **django-camera-kit** for document capture and liveness, and **PostgreSQL** for persistence—creating a fully self-hosted, enterprise-grade identity verification platform.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- KYC identity verification systems handling biometric and document data must comply with **GDPR, CCPA, BIPA, AML directives, and local identity regulations**. **Legal review and qualified compliance expertise remain essential**—tools support automation, not legal advice.
-
-- **Open-source KYC orchestration is maturing but incomplete.** Ballerine provides the most comprehensive open-source identity infrastructure with UI flows, case management, and rule engine . Clarium provides the most complete KYC/AML backend with hash-chained audit trails . UniFace provides production-grade facial analysis . **No single open-source tool provides the end-to-end global coverage of Persona or Trulioo.** Integration work is required.
-
-- **Liveness detection is critical for fraud prevention.** liveness-detector uses randomized gesture challenges to defeat replay and spoof attacks . UniFace includes MiniFASNet anti-spoofing . **Passive liveness (miniFAS) is more user-friendly but less robust than active challenge-based detection.**
-
-- **Model licensing matters for commercial use.** UniFace is MIT-licensed, but YOLOv5-Face/YOLOv8-Face weights are GPL-3.0, and FairFace is CC BY 4.0 . **Verify licensing for every model before commercial deployment.**
-
-- **Audit trails are mandatory for compliance.** Clarium's hash-chained audit trail (SHA-256, tamper-detectable) provides the evidence integrity that regulators require . **Without tamper-evident logging, compliance evidence is worthless.**
-
-- **On-premise processing matters for data sovereignty.** liveness-detector processes all data locally by default . **This is critical for jurisdictions with strict data localization requirements.**
-
-- Self-hosted open-source solutions require proper security hardening, biometric data protection, and ongoing maintenance. **Biometric data is irreversible—if compromised, it cannot be reset like a password.** Access controls and encryption are non-negotiable.
-
-
+</div>
 
 ---
 
+## 📌 Table of Contents
 
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted KYC Platforms](#-saas--hosted-kyc-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [Top KYC & AML Orchestrators & Engines](#top-kyc--aml-orchestrators--engines)
+  - [Specialized Modules & Utilities](#specialized-modules--utilities)
+  - [Developer Frameworks & Blueprints](#developer-frameworks--blueprints)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📊 Star History](#-star-history)
+- [⚖️ Disclaimer & Compliance Guide](#️-disclaimer--compliance-guide)
 
-**Made for fintech developers, compliance engineers, and developers building transparent KYC identity solutions.**  
+---
 
-Let's make Know Your Customer Identity Orchestration more open, data-driven, and privacy-preserving.
+## 🌐 Sector Overview & Market Dynamics
+
+The global **Identity Verification (IDV) and KYC market** is valued at approximately **$15.78 billion to $16.89 billion in 2026** and is projected to expand beyond **$33 billion by 2031**, registering a compound annual growth rate (CAGR) of 13.5% to 15%. 
+
+The sector is **moderately concentrated** at the top tier—dominated by well-capitalized enterprise identity giants like Trulioo, Alloy, Persona, Jumio, and Onfido/Entrust that capture massive enterprise spend—while maintaining a **highly fragmented long-tail** of regional and niche innovators driven by localized regulatory jurisdictions (e.g., EU AMLA/eIDAS, US FinCEN, India Aadhaar e-KYC), vertical-specific fraud patterns, and emerging crypto compliance requirements.
+
+---
+
+## 🏢 SaaS & Hosted KYC Platforms
+
+Below is a comparative breakdown of the leading commercial KYC identity orchestration vendors, ranked by **company scale (valuation / annual revenue)** in descending order:
+
+| Provider | Scale (Valuation / Revenue) 📈 | Starting Price (USD) 💳 | Free Tier / Trial Limit ⏱️ | Key Capabilities & Highlights 🔍 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Trulioo](https://www.trulioo.com/)** | $1.75B Valuation / ~$100M ARR | Starting at $99/mo base tier | Contact for custom pilot / Sandbox testing access available | Global identity verification platform providing identity network checks, document authentication, and KYB business verification covering 195+ countries. |
+| **[Alloy](https://www.alloy.com/)** | $1.55B Valuation | Starting at $500/mo base orchestration commitment | Sandbox trial environment upon sales qualification | Premier identity risk decisioning platform providing multi-provider waterfall routing, transaction monitoring, and automated KYC/KYB fraud workflows. |
+| **[Persona](https://withpersona.com/)** | $1.50B Valuation / ~$75M ARR | Starting at $250/mo minimum commitment | 30-day sandbox trial; Startup Program grants 500 free verifications/mo for 1st year | Flexible no-code identity platform supporting automated document checks across 200+ countries, liveness verification, dynamic risk signals, and graph investigation. |
+| **[Jumio](https://www.jumio.com/)** | ~$1.20B Enterprise Valuation / $150M+ ARR | Blended rates starting at $0.90/verification | Sandbox testing account available upon demo request | AI-driven ID verification engine and comprehensive AML screening platform with over 1 billion historical identity verifications processed globally. |
+| **[Middesk](https://www.middesk.com/)** | $760M Valuation | $2.50/verification + $19/business registration check | Sandbox environment with $50 test credits for developers | Dedicated business verification (KYB) and compliance infrastructure providing automated Secretary of State filings, registered agent data, and beneficial ownership mapping. |
+| **[Onfido](https://onfido.com/)** | $650M Valuation (Acquired by Entrust) | Starting at $1.20/verification | 30-day developer sandbox trial upon enterprise consultation | Trusted global IDV provider with hybrid AI and human expert document review, biometric selfie/video liveness, and financial-grade anti-spoofing. |
+| **[Sumsub](https://sumsub.com/)** | $500M+ Valuation / ~$70M ARR | Starting at $1.35/verification ($149/mo minimum) | 14-day free trial with introductory live sandbox verification tests | All-in-one compliance suite featuring modular KYC, KYB, continuous AML watchlist screening, and real-time fraud transaction monitoring. |
+| **[Veriff](https://www.veriff.com/)** | $400M Valuation / ~$50M ARR | Starting at $0.80/verification ($49/mo minimum) | 15-day free trial with up to 50 complimentary identity verification sessions | Fully automated AI biometric identity verification platform with real-time video-based fraud detection, document analysis, and assisted manual review options. |
+| **[IDnow](https://www.idnow.io/)** | €300M+ Valuation | Starting at €1.15/verification (€150/mo minimum) | Structured PoC sandbox period upon compliance team review | Pan-European identity verification suite offering eIDAS-compliant automated document checks, remote video-identification (VideoIdent), and e-signatures. |
+| **[Passbase](https://passbase.com/)** | $30M Valuation (Acquired by Parallel Markets) | Starting at $0.99/verification ($99/mo base) | 14-day free trial with 50 live verification credits | Developer-centric digital identity verification API providing frictionless cross-platform SDKs, biometric liveness challenges, and reusable identity credentials. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Explore open-source identity verification engines, biometric face recognition toolkits, and AML screening software. Star badges link directly to the stargazers of each respective repository.
+
+### Top KYC & AML Orchestrators & Engines
+
+* **[face_recognition](https://github.com/ageitgey/face_recognition)** <a href="https://github.com/ageitgey/face_recognition/stargazers"><img src="https://img.shields.io/github/stars/ageitgey/face_recognition?style=social&color=white" alt="face_recognition stars" /></a>  
+  The world's simplest and most popular facial recognition library for Python and the command line. Built on top of `dlib` with deep learning models, making it a foundational engine for face matching in custom KYC pipelines.
+
+* **[insightface](https://github.com/deepinsight/insightface)** <a href="https://github.com/deepinsight/insightface/stargazers"><img src="https://img.shields.io/github/stars/deepinsight/insightface?style=social&color=white" alt="insightface stars" /></a>  
+  State-of-the-art 2D and 3D deep face analysis toolbox powered by PyTorch and ONNX Runtime. Extensively deployed in high-throughput identity verification pipelines for facial recognition, attribute analysis, and anti-spoofing.
+
+* **[deepface](https://github.com/serengil/deepface)** <a href="https://github.com/serengil/deepface/stargazers"><img src="https://img.shields.io/github/stars/serengil/deepface?style=social&color=white" alt="deepface stars" /></a>  
+  A lightweight facial recognition and facial attribute analysis framework for Python. Wraps top-performing models (VGG-Face, Google FaceNet, OpenFace, ArcFace) into a unified identity verification API.
+
+* **[Ballerine](https://github.com/ballerine-io/ballerine)** <a href="https://github.com/ballerine-io/ballerine/stargazers"><img src="https://img.shields.io/github/stars/ballerine-io/ballerine?style=social&color=white" alt="ballerine stars" /></a>  
+  **The leading open-source infrastructure for identity and risk orchestration** (Y Combinator-backed). Features ready-to-use KYC/KYB onboarding UI flows, case management dashboards, multi-vendor identity verification plugins, and a flexible rule decisioning engine.
+
+* **[uniface](https://github.com/yakhyo/uniface)** <a href="https://github.com/yakhyo/uniface/stargazers"><img src="https://img.shields.io/github/stars/yakhyo/uniface?style=social&color=white" alt="uniface stars" /></a>  
+  All-in-one lightweight face analysis library built on ONNX Runtime. Features face detection (RetinaFace, SCRFD), recognition (ArcFace, AdaFace), anti-spoofing (MiniFASNet), gaze estimation, and vector store integration for KYC matching.
+
+* **[opensanctions](https://github.com/opensanctions/opensanctions)** <a href="https://github.com/opensanctions/opensanctions/stargazers"><img src="https://img.shields.io/github/stars/opensanctions/opensanctions?style=social&color=white" alt="opensanctions stars" /></a>  
+  Open-source international sanctions, politically exposed persons (PEP), and corporate registry database crawler. An indispensable tool for open-source AML and financial crime compliance screening.
+
+* **[marble](https://github.com/checkmarble/marble)** <a href="https://github.com/checkmarble/marble/stargazers"><img src="https://img.shields.io/github/stars/checkmarble/marble?style=social&color=white" alt="marble stars" /></a>  
+  Real-time risk decisioning engine designed for fintech compliance, automated KYC routing, fraud transaction monitoring, and rules evaluation.
+
+* **[watchman](https://github.com/moov-io/watchman)** <a href="https://github.com/moov-io/watchman/stargazers"><img src="https://img.shields.io/github/stars/moov-io/watchman?style=social&color=white" alt="watchman stars" /></a>  
+  Open-source financial regulatory compliance engine by Moov. Automatically downloads, indexes, and queries global OFAC, BIS, and EU sanctions lists via a fast, containerized Go service.
+
+* **[blinkid-android](https://github.com/microblink/blinkid-android)** <a href="https://github.com/microblink/blinkid-android/stargazers"><img src="https://img.shields.io/github/stars/microblink/blinkid-android?style=social&color=white" alt="blinkid-android stars" /></a>  
+  Production-grade mobile SDK for scanning and extracting machine-readable data (MRZ) from passports, IDs, and driver's licenses for mobile KYC onboarding.
+
+* **[Face-Liveness-Detection-SDK-Linux](https://github.com/FaceOnLive/Face-Liveness-Detection-SDK-Linux)** <a href="https://github.com/FaceOnLive/Face-Liveness-Detection-SDK-Linux/stargazers"><img src="https://img.shields.io/github/stars/FaceOnLive/Face-Liveness-Detection-SDK-Linux?style=social&color=white" alt="FaceOnLive stars" /></a>  
+  Accurate face anti-spoofing server SDK for Linux providing multi-modal liveness checks against print, screen replay, and mask spoofing attacks.
+
+* **[ID-DocumentRecognition-Linux](https://github.com/MiniAiLive/ID-DocumentRecognition-Linux)** <a href="https://github.com/MiniAiLive/ID-DocumentRecognition-Linux/stargazers"><img src="https://img.shields.io/github/stars/MiniAiLive/ID-DocumentRecognition-Linux?style=social&color=white" alt="MiniAiLive stars" /></a>  
+  Server OCR engine for ID cards, passports, and driver's licenses, specialized for on-premise document data extraction in self-hosted KYC setups.
+
+* **[iOS-FaceRecognition-FaceLivenessDetection](https://github.com/recognito-vision/iOS-FaceRecognition-FaceLivenessDetection)** <a href="https://github.com/recognito-vision/iOS-FaceRecognition-FaceLivenessDetection/stargazers"><img src="https://img.shields.io/github/stars/recognito-vision/iOS-FaceRecognition-FaceLivenessDetection?style=social&color=white" alt="recognito-vision stars" /></a>  
+  High-accuracy NIST FRVT-evaluated face recognition and liveness detection SDK tailored for native iOS identity verification applications.
+
+* **[IDCardRecognition-Docker](https://github.com/kby-ai/IDCardRecognition-Docker)** <a href="https://github.com/kby-ai/IDCardRecognition-Docker/stargazers"><img src="https://img.shields.io/github/stars/kby-ai/IDCardRecognition-Docker?style=social&color=white" alt="kby-ai stars" /></a>  
+  Containerized ID card, passport, and driving permit OCR recognition engine for microservice-based identity capture pipelines.
+
+* **[org.id](https://github.com/windingtree/org.id)** <a href="https://github.com/windingtree/org.id/stargazers"><img src="https://img.shields.io/github/stars/windingtree/org.id?style=social&color=white" alt="org.id stars" /></a>  
+  Self-Sovereign Identity (SSI) solution and W3C-DID compliant decentralized business verification (KYB) protocol for organizations.
+
+* **[authsome](https://github.com/xraph/authsome)** <a href="https://github.com/xraph/authsome/stargazers"><img src="https://img.shields.io/github/stars/xraph/authsome?style=social&color=white" alt="authsome stars" /></a>  
+  Extensible Go identity engine with plugins for enterprise verification sessions, KYC webhook handling, and middleware access controls.
+
+* **[vision-liveness-detector](https://github.com/2060-io/vision-liveness-detector)** <a href="https://github.com/2060-io/vision-liveness-detector/stargazers"><img src="https://img.shields.io/github/stars/2060-io/vision-liveness-detector?style=social&color=white" alt="liveness-detector stars" /></a>  
+  Gesture-based facial liveness detector by 2060.io utilizing randomized physical challenges (blinking, smiling, turning head) to eliminate replay attacks.
+
+* **[Clarium](https://github.com/QuantSingularity/Clarium)** <a href="https://github.com/QuantSingularity/Clarium/stargazers"><img src="https://img.shields.io/github/stars/QuantSingularity/Clarium?style=social&color=white" alt="Clarium stars" /></a>  
+  RegTech compliance module with FastAPI KYC/AML engine featuring hash-chained SHA-256 tamper-detectable audit trails and multi-jurisdiction rules.
+
+* **[open-kyc](https://github.com/College-Canine/open-kyc)** <a href="https://github.com/College-Canine/open-kyc/stargazers"><img src="https://img.shields.io/github/stars/College-Canine/open-kyc?style=social&color=white" alt="open-kyc stars" /></a>  
+  TypeScript community project enabling free KYC compliance workflows and document handling.
+
+* **[tf-kyc-verifier](https://github.com/threefoldtech/tf-kyc-verifier)** <a href="https://github.com/threefoldtech/tf-kyc-verifier/stargazers"><img src="https://img.shields.io/github/stars/threefoldtech/tf-kyc-verifier?style=social&color=white" alt="tf-kyc-verifier stars" /></a>  
+  Go-based KYC verification service for ThreeFold with webhook processing and automated identity token issuance.
+
+---
+
+### Specialized Modules & Utilities
+
+* **[django-camera-kit](https://pypi.org/project/django-camera-kit/)** — Live document edge detection, corner adjustment, and selfie liveness capture widgets for Django and pgvector.
+* **[personal_validation_system](https://pub.dev/packages/personal_validation_system)** — Mobile KYC verification and document validation plugin for Flutter.
+* **[FaceVault](https://docs.hollaex.com/plugins/use-plugins/facevault-automatic-kyc)** — Automated hosted KYC verification plugin tailored for crypto exchanges.
+* **[pykolofinance](https://pypi.org/project/pykolofinance/)** — Banking microservice integration with Dojah for Nigerian BVN, NIN, and biometric verification.
+* **[crypto-aml](https://pypi.org/project/crypto-aml/)** — Crypto wallet risk screening and transaction monitoring SDK with graph visualization.
+* **[passive_liveness](https://pub.dev/packages/passive_liveness)** — Flutter passive liveness detection library using MiniFASNet.
+
+---
+
+### Developer Frameworks & Blueprints
+
+```mermaid
+flowchart LR
+    A["User Intake & Doc Capture\n(Mobile SDK / Web)"] --> B["Document OCR & MRZ\n(BlinkID / UniFace)"]
+    B --> C["Facial Biometrics & Liveness\n(InsightFace / 2060.io)"]
+    C --> D["Decision & AML Engine\n(Ballerine / Watchman / Marble)"]
+    D --> E["Tamper-Proof Audit Trail\n(Clarium SHA-256)"]
+```
+
+> **Architecture Tip**: For a complete self-hosted, enterprise-grade identity stack, combine **Ballerine** for user onboarding & orchestration, **insightface** or **UniFace** for facial matching, **moov-io/watchman** for automated sanctions screening, and **Clarium** for immutable audit trail generation.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Help us keep this list comprehensive and up-to-date:
+
+1. 🍴 **Fork** this repository.
+2. 🌿 **Create a branch** for your updates (`git checkout -b feature/add-new-kyc-tool`).
+3. 📝 **Add or edit entries** in `README.md` keeping formatting consistent (include name, scale/stars, pricing, and key features).
+4. 🚀 **Submit a Pull Request** with a brief summary of the project.
+
+---
+
+## 💖 Support
+
+If you find this curated collection valuable for your projects or research:
+
+- ⭐ **Star** this repository to show your appreciation!
+- 🍴 **Fork** and share it with your fellow engineers, fintech developers, and compliance teams.
+- ☕ **Support the author**: Consider sponsoring or buying a coffee via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📊 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Know-Your-Customer-KYC-Identity-Orchestrator&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Know-Your-Customer-KYC-Identity-Orchestrator&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer & Compliance Guide
+
+- This directory is **community-curated** for educational, technical, and informational purposes. It does not constitute legal, regulatory, or compliance advice.
+- KYC identity verification systems handling biometric and document data must strictly comply with **GDPR, CCPA, BIPA, AMLD5/6, and regional privacy frameworks**. Always involve certified compliance and legal teams.
+- **Model Licensing Notice**: While orchestration frameworks are often MIT or Apache 2.0 licensed, specific underlying computer vision models (such as YOLOv5-Face weights or FairFace datasets) carry GPL-3.0 or non-commercial CC BY 4.0 licenses. Ensure licensing audits before commercial release.
+- **Biometric Security**: Biometric embeddings cannot be reset like passwords. Always implement strong end-to-end encryption, on-device processing when possible, and tamper-evident audit logs.
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ for fintech engineers, compliance teams, and builders of privacy-preserving identity systems.</sub>
+</div>
